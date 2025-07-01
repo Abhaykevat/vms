@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855807778855",
+    "project_id": "vmsproject-9884d",
+    "storage_bucket": "vmsproject-9884d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855807778855:android:9f17d2dafbf4545e94ee02",
+        "android_client_info": {
+          "package_name": "com.example.vms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQWjO5bq0hWdDR8V-8ZmDRNez3jGgJ8OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
