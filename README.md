@@ -1,16 +1,40 @@
-# vms
+README File
 
-A new Flutter project.
+# Visitor Management System (Flutter + Firebase)
 
-## Getting Started
+A complete role-based Visitor Management System using Flutter for the frontend and Firebase Firestore + Functions for backend APIs.
 
-This project is a starting point for a Flutter application.
+## 🔧 Setup Instructions
 
-A few resources to get you started if this is your first Flutter project:
+### Frontend (Flutter)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repo**  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone 
+cd vms_flutter
+Install dependencies
+
+1. Install dependencies
+flutter pub get
+Run the app
+
+2.Run the app
+flutter run
+
+
+
+Backend (Firebase Functions)
+Install Firebase CLI
+
+1.Install Firebase CLI
+npm install -g firebase-tools
+firebase login
+Init Functions
+
+2. Init Functions
+firebase init functions
+Deploy APIs
+3. Deploy APIs
+cd functions
+npm install
+firebase deploy --only functions
